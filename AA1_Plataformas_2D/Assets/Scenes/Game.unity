@@ -12318,7 +12318,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   controladorSuelo: {fileID: 2038876269}
-  dimensionesCaja: {x: 0.7, y: 0.2, z: 0}
+  dimensionesCaja: {x: 1.14, y: 1.77, z: 0}
   enSuelo: 0
   saltando: 0
 --- !u!95 &2038876265
@@ -12331,7 +12331,7 @@ Animator:
   m_GameObject: {fileID: 2038876263}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: -253928212594138098, guid: 44aa3d3886d22664ebda7ffff7045ae3, type: 3}
+  m_Controller: {fileID: 9100000, guid: a725e8c4a271c814cb24f7d59b95d67a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12374,18 +12374,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0027837157, y: 0.019486204}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.38}
+    oldSize: {x: 0.41666666, y: 0.7916667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.45995384, y: 0.78286815}
   m_EdgeRadius: 0
 --- !u!50 &2038876267
 Rigidbody2D:
