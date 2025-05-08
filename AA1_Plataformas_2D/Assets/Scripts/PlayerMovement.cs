@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb2D;
-   // public Animator animator;
+    public Animator animator;
 
     [Header("Movimiento")]
 
@@ -74,8 +74,8 @@ public class PlayerMovement : MonoBehaviour
             enSuelo = false;
             rb2D.AddForce(new Vector2(0f, fuerzaDeSalto));
         }
-      //  animator.SetBool("isJumping", enSuelo);
-        //animator.SetBool("isMoving", moviendo != 0);
+        animator.SetBool("isJumping", enSuelo);
+        animator.SetBool("isMoving", moviendo != 0);
     }
 
     private void Girar()
