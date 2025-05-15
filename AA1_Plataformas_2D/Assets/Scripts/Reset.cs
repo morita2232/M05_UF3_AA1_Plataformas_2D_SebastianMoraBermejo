@@ -20,7 +20,7 @@ public class Reset : MonoBehaviour
         Debug.Log("Inicia muerte");
         animator.SetBool("isDead", true);
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(2.3f);
 
         Debug.Log("Reinicio de posición");
         player.transform.position = new Vector3(-3, 0, -2);
