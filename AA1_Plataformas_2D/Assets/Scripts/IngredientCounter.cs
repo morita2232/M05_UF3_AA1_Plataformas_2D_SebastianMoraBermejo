@@ -10,7 +10,7 @@ public class IngredientCounter : MonoBehaviour
     public GameObject iconPrefab;
     public MovingPlatform platform;
 
-    private int count = 0;
+    public int count = 0;
 
     public void AddIngredient(int spriteIndex)
     {
