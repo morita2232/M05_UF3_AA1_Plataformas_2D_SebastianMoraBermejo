@@ -9,6 +9,8 @@ public class DoorLock : MonoBehaviour
 
     public GameObject door;
     public BoxCollider2D doorCollider;
+    public SpriteRenderer sr;
+    public Sprite newS;
     public IngredientCounter count;
     public TextMeshProUGUI warning;
     public GameObject showWarning;
@@ -23,6 +25,7 @@ public class DoorLock : MonoBehaviour
                 warning.text = "YOU CAN GO IN!";
                 showWarning.SetActive(true);
                 doorCollider.isTrigger = true;
+                sr.sprite = newS;
                 Debug.Log("PUERTA DESBLOQUEADA");
             }
             else if( count.count < 5)

@@ -15,4 +15,10 @@ public class PlayStart : MonoBehaviour
         game.SetActive(true);
         witch.SetActive(true);
     }
+
+    public void GoBack()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }
